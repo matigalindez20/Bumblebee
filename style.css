@@ -69,16 +69,13 @@ body {
 
 @media screen and (max-width: 456px) {
   body {
-    background: url(./pictur/lo3.jpeg) no-repeat center center fixed;
+    background: url(./pictur/bum2.jpg) no-repeat center center fixed;
     background-size: cover;
   }
   .header {
     padding: 3px 5%;
     display: flex;
     justify-content: space-between;
-  }
-  .h1 {
-    color: yellow;
   }
   .logo {
     height: 80px;
