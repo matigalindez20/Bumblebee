@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+body {
+  background-color: rgb(61, 57, 57);
+}
+
 .header {
   display: flex;
   flex-flow: row wrap;
@@ -42,12 +46,17 @@
   width: 1%;
 }
 
-@media screen and (max-width: 445px) {
+@media screen and (max-width: 456px) {
+  .header {
+    padding: 3px 5%;
+    display: flex;
+    justify-content: space-between;
+  }
   .logo {
-    height: 60px;
+    height: 80px;
     width: auto;
   }
   .title {
-    font-size: 35px;
+    display: none;
   }
 }
