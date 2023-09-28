@@ -77,6 +77,9 @@ body {
     display: flex;
     justify-content: space-between;
   }
+  .h1 {
+    color: yellow;
+  }
   .logo {
     height: 80px;
     width: auto;
