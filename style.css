@@ -68,6 +68,10 @@ body {
 }
 
 @media screen and (max-width: 456px) {
+  body {
+    background: url(./pictur/lo3.jpeg) no-repeat center center fixed;
+    background-size: cover;
+  }
   .header {
     padding: 3px 5%;
     display: flex;
