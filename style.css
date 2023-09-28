@@ -5,7 +5,8 @@
 }
 
 body {
-  background-color: rgb(61, 57, 57);
+  background: url(./pictur/log.jpg) center center fixed;
+  background-size: cover;
 }
 
 .header {
