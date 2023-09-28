@@ -41,3 +41,13 @@
   cursor: pointer;
   width: 1%;
 }
+
+@media screen and (max-width: 445px) {
+  .logo {
+    height: 60px;
+    width: auto;
+  }
+  .title {
+    font-size: 35px;
+  }
+}
