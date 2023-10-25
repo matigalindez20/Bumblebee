@@ -82,10 +82,11 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  z-index: -1;
 }
 
 .h1 {
-  color: rgba(255, 255, 255, 0.685);
+  color: rgba(211, 196, 184, 0.822);
 }
 
 .a {
@@ -95,6 +96,13 @@ body {
 }
 
 @media screen and (max-width: 630px) {
+  body {
+    background: url(./pictur/logmobile.jpg) no-repeat center center fixed;
+    background-size: cover;
+  }
+  .logo {
+    margin: 15px 15px;
+  }
   .header {
     padding: 0;
   }
@@ -106,8 +114,8 @@ body {
     top: 0;
     left: 0;
     position: absolute;
-    background-color: rgba(183, 223, 201, 0.137);
-    backdrop-filter: blur(8 px);
+    background-color: rgba(61, 66, 42, 0.24);
+    backdrop-filter: blur(12px);
     width: 100%;
     height: 100vh;
     display: flex;
@@ -137,10 +145,6 @@ body {
 }
 
 @media screen and (max-width: 456px) {
-  body {
-    background: url(./pictur/logmobile.jpg) no-repeat center center fixed;
-    background-size: cover;
-  }
   .header {
     padding: 3px 5%;
     display: flex;
@@ -149,9 +153,6 @@ body {
   .logo {
     height: 80px;
     width: auto;
-  }
-  .title {
-    display: none;
   }
 
   .title {
