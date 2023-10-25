@@ -55,11 +55,30 @@ body {
 .etiqueta-1 {
   color: rgb(118, 139, 40);
   text-decoration: none;
+  position: relative;
+}
+
+.etiqueta-1::after {
+  content: "";
+  width: 0;
+  height: 4px;
+  background-color: rgb(118, 139, 40);
+  position: absolute;
+  bottom: 0;
+  right: 50%;
+  transition: all 0.5s;
+  will-change: width;
+}
+
+.etiqueta-1:hover::after {
+  width: 100%;
+  right: 0;
 }
 
 .etiqueta {
   color: white;
   text-decoration: none;
+  position: relative;
 }
 .title {
   font-size: 50px;
@@ -72,6 +91,23 @@ body {
   position: absolute;
   top: 50px;
   right: 50px;
+}
+
+.etiqueta::after {
+  content: "";
+  width: 0;
+  height: 4px;
+  background-color: gray;
+  position: absolute;
+  bottom: 0;
+  right: 50%;
+  transition: all 0.5s;
+  will-change: width;
+}
+
+.etiqueta:hover::after {
+  width: 100%;
+  right: 0;
 }
 
 .title {
