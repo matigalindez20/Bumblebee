@@ -8,18 +8,44 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Poppins:wght@300&family=Roboto+Condensed&family=Rubik:ital@1&family=Signika+Negative:wght@700&family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <title>Bumblebee</title>
   </head>
   <body>
     <header class="header">
-      <button class="button"><i class="fa-solid fa-bars fa-xl"></i></button>
       <div class="conteiner">
         <img class="logo" src="./pictur/bum1-removebg-preview.png" alt="" />
       </div>
+      <div class="nav-links">
+        <ul>
+          <li><a class="etiqueta-1" href="#">Inicio</a></li>
+          <li><a class="etiqueta" href="#">Tienda</a></li>
+          <li><a class="etiqueta" href="#">Contacto</a></li>
+          <li><a class="etiqueta" href="#">Carrito</a></li>
+        </ul>
+      </div>
+      <img
+        src="./pictur/menu_2870186.png"
+        alt="menu hamburguer"
+        class="menu-hamburger"
+      />
     </header>
     <section class="title">
       <h1 class="h1">BUMBLEBEE</h1>
-      <h4><a class="a" href="">Ver Tienda</a></h4>
+      <h4><a class="a" href="./tienda.html">Ver Tienda</a></h4>
     </section>
   </body>
+  <script>
+    const button = document.querySelector(".menu-hamburger");
+    const nav = document.querySelector(".nav-links");
+
+    button.addEventListener("click", () => {
+      nav.classList.toggle("activo");
+    });
+  </script>
 </html>
