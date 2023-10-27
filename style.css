@@ -149,8 +149,37 @@ body {
   height: 300px;
 }
 
+.tienda {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 30px;
+  flex-wrap: wrap;
+}
+.tienda2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 30px;
+  flex-wrap: wrap;
+}
+
+.precio {
+  color: white;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+}
+
+.compra {
+  font-family: "Poppins", sans-serif;
+  align-items: center;
+  margin: 0px 130px;
+}
+
 .card {
   display: flex;
+  flex-direction: row;
   width: 300px;
   height: 300px;
   cursor: pointer;
@@ -180,6 +209,86 @@ body {
 
 .caja1:hover ~ .caja2 {
   clip-path: polygon(0 0, 100% 0, 0 0, 0 0);
+}
+
+.caja3 {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background: url(buzo4.jpg);
+  background-size: 100% 100%;
+}
+
+.caja4 {
+  width: 300px;
+  height: 300px;
+  background: url(buzo3.jpg);
+  background-size: 100% 100%;
+  transition: 0.6s;
+  clip-path: polygon(0 0, 100% 0, 49% 52%, 0% 100%);
+}
+
+.caja4:hover {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.caja3:hover ~ .caja4 {
+  clip-path: polygon(0 0, 100% 0, 0 0, 0 0);
+}
+
+.caja5 {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background: url(buzo6.jpg);
+  background-size: 100% 100%;
+}
+
+.caja6 {
+  width: 300px;
+  height: 300px;
+  background: url(buzo5.jpg);
+  background-size: 100% 100%;
+  transition: 0.6s;
+  clip-path: polygon(0 0, 100% 0, 49% 52%, 0% 100%);
+}
+
+.caja6:hover {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.caja5:hover ~ .caja6 {
+  clip-path: polygon(0 0, 100% 0, 0 0, 0 0);
+}
+
+.caja7 {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background: url(buzo8.jpg);
+  background-size: 100% 100%;
+}
+
+.caja8 {
+  width: 300px;
+  height: 300px;
+  background: url(buzo7.jpg);
+  background-size: 100% 100%;
+  transition: 0.6s;
+  clip-path: polygon(0 0, 100% 0, 49% 52%, 0% 100%);
+}
+
+.caja8:hover {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.caja7:hover ~ .caja8 {
+  clip-path: polygon(0 0, 100% 0, 0 0, 0 0);
+}
+
+.compra {
+  background-color: rgba(214, 247, 163);
+  border: rgb(94, 57, 53) solid;
 }
 
 @media screen and (max-width: 630px) {
