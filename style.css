@@ -9,6 +9,39 @@ body {
   background-size: cover;
 }
 
+.envios {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin: 10%;
+  flex-wrap: wrap;
+}
+
+.conteiner-envios {
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  align-items: center;
+  text-align: center;
+}
+
+.aro {
+  width: 25%;
+  border-radius: 10%;
+}
+
+.contacto-wsp {
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  align-items: center;
+  text-align: center;
+}
+
 .header {
   display: flex;
   flex-flow: row wrap;

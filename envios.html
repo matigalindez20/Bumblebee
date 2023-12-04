@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <script
+      src="https://kit.fontawesome.com/0c19aa0a31.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Poppins:wght@300&family=Roboto+Condensed&family=Rubik:ital@1&family=Signika+Negative:wght@700&family=Ubuntu:wght@300&display=swap"
@@ -24,15 +28,17 @@
   </head>
   <body>
     <header class="header">
-      <div class="conteiner">
-        <img class="logo" src="./pictur/bum1-removebg-preview.png" alt="" />
+      <div class="conteiner" data-content="instagram">
+        <a href="https://www.instagram.com/bumblebee_arg/"
+          ><img class="logo" src="./pictur/bum1-removebg-preview.png" alt=""
+        /></a>
       </div>
       <div class="nav-links">
         <ul>
           <li><a class="etiqueta" href="./index.html">Inicio</a></li>
           <li><a class="etiqueta" href="./tienda.html">Tienda</a></li>
+          <li><a class="etiqueta-1" href="./envios.html">Envíos</a></li>
           <li><a class="etiqueta" href="./contacto.html">Contacto</a></li>
-          <li><a class="etiqueta-1" href="./carrito.html">Carrito</a></li>
         </ul>
       </div>
       <img
@@ -41,5 +47,21 @@
         class="menu-hamburger"
       />
     </header>
+    <section class="envios">
+      <div class="conteiner-envios">
+        <h1>Envíos a domicilio</h1>
+        <p>Sin cargo dentro de córdoba</p>
+      </div>
+      <img class="aro" src="./aro.png" alt="Córdoba" />
+      <div class="contacto-wsp">
+        <h1>Hace tu pedido por WhatsApp</h1>
+        <p>Haz click para ir al chat</p>
+      </div>
+      <a
+        href="https://api.whatsapp.com/send?phone=3512066602&text=Hola, me intersa un buzo bumblebee"
+      >
+        <i class="fa-brands fa-whatsapp fa-2xl" style="color: #6be619"></i>
+      </a>
+    </section>
   </body>
 </html>
